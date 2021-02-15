@@ -24,10 +24,17 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link rel="stylesheet" href="%PUBLIC_URL%/vendors/mdi/css/materialdesignicons.min.css">
+		<link rel="stylesheet" href="%PUBLIC_URL%/vendors/owl.carousel/css/owl.carousel.css">
+		<link rel="stylesheet" href="%PUBLIC_URL%/vendors/owl.carousel/css/owl.theme.default.min.css">
+		<link rel="stylesheet" href="%PUBLIC_URL%/vendors/aos/css/aos.css">
+		<link rel="stylesheet" href="%PUBLIC_URL%/vendors/jquery-flipster/css/jquery.flipster.css">
+		<link rel="stylesheet" href="%PUBLIC_URL%/css/style.css">
+		<link rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.png" />
+    <title>Web Portofolio</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="mobile-menu-overlay"></div>
     <div id="root"></div>
     <!--
       This HTML file is a template.
@@ -39,5 +46,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="%PUBLIC_URL%/vendors/base/vendor.bundle.base.js"></script>
+		<script src="%PUBLIC_URL%/vendors/owl.carousel/js/owl.carousel.js"></script>
+		<script src="%PUBLIC_URL%/vendors/aos/js/aos.js"></script>
+		<script src="%PUBLIC_URL%/vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
+		<script src="%PUBLIC_URL%/js/template.js"></script>
   </body>
 </html>
